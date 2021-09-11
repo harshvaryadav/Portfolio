@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box;
+}
+#auto{
+    display:block;
+    z-index:1;
+    width:20%;
+    height:160px;
+    overflow:auto;
+}
+#Myinput{
+    width:20%;
+    height:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    outline:none;
+    border:none;
+    padding-left:40px;
+    background-color:rgb(243, 232, 232);
+} 
+#Myinput:focus{
+    border:2px solid blue;
+}
+.country{
+    width:100%;
+    height:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    padding-left:40px;
+    border:1px solid rgb(187, 182, 182);
+}
+.country:hover{
+    background-color:rgb(226, 224, 224);
+}
